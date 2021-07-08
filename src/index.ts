@@ -16,6 +16,7 @@ export type {
   PinchGestureHandlerEventPayload,
   RotationGestureHandlerEventPayload,
   FlingGestureHandlerEventPayload,
+  TransformGestureHandlerEventPayload,
   // gesture handlers props types
   TapGestureHandlerProps,
   ForceTouchGestureHandlerProps,
@@ -24,6 +25,7 @@ export type {
   PinchGestureHandlerProps,
   RotationGestureHandlerProps,
   FlingGestureHandlerProps,
+  TransformGestureHandlerProps,
 } from './handlers/gestureHandlers';
 export {
   TapGestureHandler,
@@ -33,6 +35,7 @@ export {
   PinchGestureHandler,
   RotationGestureHandler,
   FlingGestureHandler,
+  TransformGestureHandler,
 } from './handlers/gestureHandlers';
 export { default as createNativeWrapper } from './handlers/createNativeWrapper';
 export type {

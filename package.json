@@ -1,6 +1,6 @@
 {
   "name": "react-native-gesture-handler",
-  "version": "1.10.3",
+  "version": "1.10.5",
   "description": "Experimental implementation of a new declarative API for gesture handling in react-native",
   "scripts": {
     "prepare": "bob build",
@@ -35,7 +35,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/software-mansion/react-native-gesture-handler.git"
+    "url": "git+https://github.com/muze-app/react-native-gesture-handler.git"
   },
   "author": {
     "email": "krzys.magiera@gmail.com",
@@ -44,9 +44,9 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/software-mansion/react-native-gesture-handler/issues"
+    "url": "https://github.com/muze-app/react-native-gesture-handler/issues"
   },
-  "homepage": "https://github.com/software-mansion/react-native-gesture-handler#readme",
+  "homepage": "https://github.com/muze-app/react-native-gesture-handler#readme",
   "dependencies": {
     "@egjs/hammerjs": "^2.0.17",
     "fbjs": "^3.0.0",
@@ -66,9 +66,9 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-typescript": "^7.12.7",
     "@babel/runtime": "^7.12.5",
+    "@types/hammerjs": "^2.0.38",
     "@types/hoist-non-react-statics": "^3.3.1",
     "@types/jest": "^26.0.19",
-    "@types/hammerjs": "^2.0.38",
     "@types/react": "^17.0.0",
     "@types/react-native": "^0.64.2",
     "@types/react-test-renderer": "^17.0.0",

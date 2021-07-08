@@ -34,6 +34,8 @@
 		44AEC73A1F8FA1270086889F /* RNTapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AEC72E1F8FA1270086889F /* RNTapHandler.m */; };
 		44BE34481F1E1AAA008679D1 /* RNGestureHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BE34471F1E1AAA008679D1 /* RNGestureHandlerManager.m */; };
 		44BE344A1F1E1ABA008679D1 /* RNGestureHandlerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 44BE34491F1E1ABA008679D1 /* RNGestureHandlerManager.h */; };
+		63D798AD26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D798AC26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift */; };
+		63D798AE26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D798AC26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift */; };
 		660F46742080D8F700B7B50D /* RNGestureHandlerDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = 660F46732080D8F600B7B50D /* RNGestureHandlerDirection.h */; };
 		668E083C21BDD70900EDDF40 /* RNForceTouchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 668E083A21BDD70900EDDF40 /* RNForceTouchHandler.h */; };
 		668E083D21BDD70900EDDF40 /* RNForceTouchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 668E083B21BDD70900EDDF40 /* RNForceTouchHandler.m */; };
@@ -123,6 +125,7 @@
 		44AEC72E1F8FA1270086889F /* RNTapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNTapHandler.m; path = Handlers/RNTapHandler.m; sourceTree = "<group>"; };
 		44BE34471F1E1AAA008679D1 /* RNGestureHandlerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGestureHandlerManager.m; sourceTree = "<group>"; };
 		44BE34491F1E1ABA008679D1 /* RNGestureHandlerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGestureHandlerManager.h; sourceTree = "<group>"; };
+		63D798AC26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllTouchesGestureRecognizer.swift; path = Handlers/AllTouchesGestureRecognizer.swift; sourceTree = "<group>"; };
 		660F46732080D8F600B7B50D /* RNGestureHandlerDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGestureHandlerDirection.h; sourceTree = "<group>"; };
 		668E083A21BDD70900EDDF40 /* RNForceTouchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNForceTouchHandler.h; path = Handlers/RNForceTouchHandler.h; sourceTree = "<group>"; };
 		668E083B21BDD70900EDDF40 /* RNForceTouchHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNForceTouchHandler.m; path = Handlers/RNForceTouchHandler.m; sourceTree = "<group>"; };
@@ -160,6 +163,7 @@
 		44AEC7221F8FA1150086889F /* Handlers */ = {
 			isa = PBXGroup;
 			children = (
+				63D798AC26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift */,
 				668E083A21BDD70900EDDF40 /* RNForceTouchHandler.h */,
 				668E083B21BDD70900EDDF40 /* RNForceTouchHandler.m */,
 				66A291D4207D032400809C27 /* RNFlingHandler.h */,
@@ -306,6 +310,10 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1250;
+					};
+					B5C32A0C220C603B000FFB8D = {
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -314,6 +322,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -337,6 +346,7 @@
 				44BE34481F1E1AAA008679D1 /* RNGestureHandlerManager.m in Sources */,
 				44AEC7301F8FA1270086889F /* RNLongPressHandler.m in Sources */,
 				446E7FF81ED89A4B009282E7 /* RNGestureHandlerEvents.m in Sources */,
+				63D798AD26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift in Sources */,
 				44AEC7341F8FA1270086889F /* RNPanHandler.m in Sources */,
 				44AEC7171F8F9C090086889F /* RNGestureHandlerRegistry.m in Sources */,
 				448802DE1F6803DF00018214 /* RNGestureHandler.m in Sources */,
@@ -359,6 +369,7 @@
 				B5C32A10220C603B000FFB8D /* RNGestureHandlerManager.m in Sources */,
 				B5C32A11220C603B000FFB8D /* RNLongPressHandler.m in Sources */,
 				B5C32A12220C603B000FFB8D /* RNGestureHandlerEvents.m in Sources */,
+				63D798AE26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift in Sources */,
 				B5C32A13220C603B000FFB8D /* RNPanHandler.m in Sources */,
 				B5C32A14220C603B000FFB8D /* RNGestureHandlerRegistry.m in Sources */,
 				B5C32A15220C603B000FFB8D /* RNGestureHandler.m in Sources */,
@@ -378,16 +389,20 @@
 		3C75380331224952A9D19739 /* Testflight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNGestureHandler;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Testflight;
 		};
@@ -468,32 +483,41 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNGestureHandler;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNGestureHandler;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -568,83 +592,104 @@
 		8F4E4CFC1C3048678D76E403 /* Testflight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNGestureHandler;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNGestureHandler-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Testflight;
 		};
 		B5C32A32220C603B000FFB8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		B5C32A33220C603B000FFB8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		B5C32A34220C603B000FFB8D /* Testflight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Testflight;
 		};
 		B5C32A35220C603B000FFB8D /* Testflight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNGestureHandler;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNGestureHandler-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Testflight;
 		};
