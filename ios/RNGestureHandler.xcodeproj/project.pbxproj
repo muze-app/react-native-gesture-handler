@@ -125,8 +125,6 @@
 		44AEC72E1F8FA1270086889F /* RNTapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNTapHandler.m; path = Handlers/RNTapHandler.m; sourceTree = "<group>"; };
 		44BE34471F1E1AAA008679D1 /* RNGestureHandlerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGestureHandlerManager.m; sourceTree = "<group>"; };
 		44BE34491F1E1ABA008679D1 /* RNGestureHandlerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGestureHandlerManager.h; sourceTree = "<group>"; };
-		63D798AA26976D7A00A0EBDE /* RNGestureHandler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNGestureHandler-Bridging-Header.h"; sourceTree = "<group>"; };
-		63D798AB26976D7A00A0EBDE /* RNGestureHandler-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNGestureHandler-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		63D798AC26976D7B00A0EBDE /* AllTouchesGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllTouchesGestureRecognizer.swift; path = Handlers/AllTouchesGestureRecognizer.swift; sourceTree = "<group>"; };
 		660F46732080D8F600B7B50D /* RNGestureHandlerDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGestureHandlerDirection.h; sourceTree = "<group>"; };
 		668E083A21BDD70900EDDF40 /* RNForceTouchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNForceTouchHandler.h; path = Handlers/RNForceTouchHandler.h; sourceTree = "<group>"; };
@@ -182,8 +180,6 @@
 				44AEC72C1F8FA1270086889F /* RNRotationHandler.m */,
 				44AEC72D1F8FA1270086889F /* RNTapHandler.h */,
 				44AEC72E1F8FA1270086889F /* RNTapHandler.m */,
-				63D798AA26976D7A00A0EBDE /* RNGestureHandler-Bridging-Header.h */,
-				63D798AB26976D7A00A0EBDE /* RNGestureHandler-tvOS-Bridging-Header.h */,
 			);
 			name = Handlers;
 			sourceTree = "<group>";
@@ -405,7 +401,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNGestureHandler;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNGestureHandler-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Testflight;
@@ -499,7 +495,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNGestureHandler;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNGestureHandler-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -520,7 +516,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNGestureHandler;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNGestureHandler-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -629,7 +625,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNGestureHandler-tvOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -651,7 +647,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNGestureHandler-tvOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -672,7 +668,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNGestureHandler-tvOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Testflight;
