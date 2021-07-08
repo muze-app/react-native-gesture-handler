@@ -27,6 +27,7 @@
 #import "Handlers/RNPinchHandler.h"
 #import "Handlers/RNRotationHandler.h"
 #import "Handlers/RNForceTouchHandler.h"
+#import "Handlers/RNTransformGestureHandler.h"
 
 // We use the method below instead of RCTLog because we log out messages after the bridge gets
 // turned down in some cases. Which normally with RCTLog would cause a crash in DEBUG mode
@@ -64,6 +65,7 @@
     static dispatch_once_t mapToken;
     dispatch_once(&mapToken, ^{
         map = @{
+                @"TransformGestureHandler" : [RNTransformGestureHandler class],
                 @"PanGestureHandler" : [RNPanGestureHandler class],
                 @"TapGestureHandler" : [RNTapGestureHandler class],
                 @"FlingGestureHandler" : [RNFlingGestureHandler class],

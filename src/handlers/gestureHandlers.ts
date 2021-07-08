@@ -509,3 +509,37 @@ export const RotationGestureHandler = createHandler<
   allowedProps: baseProps,
   config: {},
 });
+
+export type TransformGestureHandlerEventPayload = {
+  transform: {
+    a: number;
+    b: number;
+    c: number;
+    d: number;
+    tx: number;
+    ty: number;
+  };
+};
+
+export interface TransformGestureHandlerProps
+  extends BaseGestureHandlerProps<TransformGestureHandlerEventPayload> {
+  initialTransform?: {
+    a: number;
+    b: number;
+    c: number;
+    d: number;
+    tx: number;
+    ty: number;
+  };
+  maxYTranslation?: number;
+}
+
+export type TransformGestureHandler = typeof TransformGestureHandler;
+export const TransformGestureHandler = createHandler<
+  TransformGestureHandlerProps,
+  TransformGestureHandlerEventPayload
+>({
+  name: 'TransformGestureHandler',
+  allowedProps: [...baseProps, 'initialTransform', 'maxYTranslation'] as const,
+  config: {},
+});
