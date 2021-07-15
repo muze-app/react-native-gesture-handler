@@ -6,6 +6,7 @@
     CGAffineTransform accumulatedTransform;
     CGFloat maxYTranslation;
     bool didSetInitialTransform;
+    NSString *lastID;
 }
 
 - (instancetype)initWithTag:(NSNumber *)tag
@@ -15,6 +16,7 @@
       accumulatedTransform = CGAffineTransformIdentity;
       maxYTranslation = CGFLOAT_MAX;
       didSetInitialTransform = false;
+      lastID = nil;
   }
   return self;
 }
@@ -39,6 +41,16 @@
     if (prop != nil && !didSetInitialTransform) {
         accumulatedTransform = [RCTConvert CGAffineTransform:prop];
         didSetInitialTransform = true;
+    }
+
+    NSString *newID = config[@"id"];
+    if(newID != nil)
+    {
+        if (![newID isEqualToString:lastID])
+        {
+            accumulatedTransform = [RCTConvert CGAffineTransform:prop];
+        }
+        lastID = newID;
     }
     
     prop = config[@"maxYTranslation"];
